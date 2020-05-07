@@ -1,3 +1,9 @@
 .title {
   color: #02ccba;
 }
+body {
+  text-align: center;
+}
+header p {
+  display: inline-block;
+}
