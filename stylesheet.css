@@ -1,11 +1,12 @@
 body{
-/*  background-color: gray; 開発用*/
+  width: auto;
+  background-color: gray;
 }
 
 header{
   background-color: #02ccba;
   width: 100%;
-  height: 110px;
+  height: auto;
 }
 
 li{
@@ -21,45 +22,83 @@ li{
 }
 
 .header-list li{
+  display: inline-block;
   float: left;
   color: white;
-  padding: 40px 30px 5px 30px;
+  padding: 40px 30px 0px 30px;
 }
+
+.clear{
+  clear: left;
+}
+/*はじめに twitter pixiv tumblrの項目に高さを持たせることができた！！！*/
 
 .header-list a{
   color:white;
 }
 
 .header-word {
-  padding-top: 60px;
   padding-left: 30px;
+  padding-bottom: 5px;
   color: white;
   background-color: #02ccba;
 }
 
+/*
 .wrapper{
-  /* background-color: yellow; 開発用*/
+  background-color: yellow;
   width: 100%;
   height: 500px;
   margin-top: 30px;
   border-top: 1px solid #333;
 }
+*/
 
-.first-one {
-  height: 500px;
+.first{
+  height: auto;
+  width: 100%;
   /*width:100%にすると右枠がちょっとはみ出てしまう*/
   background-color: white;
 }
 
-.first-one h2{
+.first h2{
   color: #02ccba;
   padding-left: 20px;
+  padding-top: 10px;
 }
 
-.first-one li{
+.first li{
   float: left;
 }
 
-.first-one .intro{
+.first .intro{
   padding-top: 100px;
+}
+
+.second {
+  height: auto;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  background-color: rgb(245,245,245);
+}
+
+.second h2{
+  padding-left: 30px;
+  color: #02ccba;
+}
+
+.illust-list{
+
+}
+
+
+.illust-list li{
+  float: left;
+
+}
+
+.illust-list img{
+  height: 500px;
+  padding-right: 15px;
+  padding-bottom: 5px;
 }
